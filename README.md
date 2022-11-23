@@ -67,3 +67,19 @@ backtrace:
 ```
 
 The same app works fine on any Android emulator, as well as a Galaxy Tab S6 (Android 12). This may be a bug in the Google Pixel 6 Pro GPU driver for that specific build.
+
+Flutter doctor output:
+
+```
+➜  flutter-mali-crash git:(main) ✗ flutter doctor
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 3.3.6, on macOS 13.0 22A380 darwin-arm, locale en-AT)
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+[✓] Xcode - develop for iOS and macOS (Xcode 14.1)
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 2021.2)
+[✓] IntelliJ IDEA Community Edition (version 2022.1.3)
+[✓] VS Code (version 1.73.1)
+[✓] Connected device (3 available)
+[✓] HTTP Host Availability
+```
